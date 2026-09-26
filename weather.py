@@ -8,7 +8,7 @@ def get_weather_data():
     if data.status_code == 200:
         return data.json()
     else:
-        print("Some Problem occured while fetching the  weather data")
+        print("Some Problem occured while fetching  weather data")
         return None
 
 def get_temperature(date):
